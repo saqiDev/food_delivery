@@ -21,10 +21,8 @@ class PopularProductController extends GetxController {
       _popularProductList.addAll(Product.fromJson(response.body).products);
       print(_popularProductList);
       update();
-    } else if (response.statusCode == 1) {
-      print("Not Got product");
     } else {
-      print("Nothing happen");
-    }
+      print("Not Got product");
+   
   }
 }
