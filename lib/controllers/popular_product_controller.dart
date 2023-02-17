@@ -23,6 +23,6 @@ class PopularProductController extends GetxController {
       update();
     } else {
       print("Not Got product");
-   
+    }
   }
 }
